@@ -6,13 +6,13 @@ printf("enter the number");
 scanf("%d",&n);
 if(n>0)
 {
-printf("positive number");
+printf("\npositive number");
 }
-f(n<0)
+if(n<0)
 {
-printf("negative number");
+printf("\nnegative number");
 }
-f(n==0)
+if(n==0)
 {
 printf("zero");
 }
